@@ -2,7 +2,7 @@
     Individuelles Chat-Widget entwickelt von Fabian
     Basierend auf n8n Chat-Integrationen
 -->
-<script>
+
 (function() {
     if (window.FabianChatWidgetLoaded) return;
     window.FabianChatWidgetLoaded = true;
@@ -161,4 +161,4 @@
         chatBody.scrollTop = chatBody.scrollHeight;
     });
 })();
-</script>
+
